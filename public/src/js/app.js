@@ -216,8 +216,8 @@ var exitFullscreen = function() {
 	}
 };
 
-var fsButton = document.getElementById('fs-button');
-var fsExitButton = document.getElementById('fs-exit-button');
+var fsButton = document.getElementById('fullbutton');
+var fsExitButton = document.getElementById('exitbutton');
 
 fsButton.addEventListener('click', function(e) {
 	e.preventDefault();
